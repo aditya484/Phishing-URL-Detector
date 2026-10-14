@@ -1,0 +1,34 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+
+# Data files (regenerate with: python -m src.train)
+data/raw/
+data/processed/
+
+# Model artifacts (regenerate with: python -m src.train)
+models/
+
+# Generated reports & logs (keep figures and metrics for GitHub presentation)
+reports/*.log
+!reports/figures/
+!reports/metrics.json
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
